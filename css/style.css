@@ -21,7 +21,6 @@ ul {
     font-size: 1rem;
 }
 
-
 /* VARIABLES */
 :root {
     /* Spaces and Dimensions; */
@@ -47,4 +46,13 @@ header {
 
 .jumbotron img {
     width: 300px;
+}
+
+/* Portfolio section */
+.portfolio {
+    color: #000000;
+}
+.image-portfolio {
+    /* DEBUG */
+    background-color: aqua;
 }
