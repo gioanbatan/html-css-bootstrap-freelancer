@@ -16,6 +16,10 @@ ul {
     list-style-type: none;
 }
 
+.main-wrapper{
+    color: #ffffff;
+    font-size: 1rem;
+}
 
 
 /* VARIABLES */
@@ -34,4 +38,13 @@ header {
     
     /* DEBUG */
     border: 1px solid black;
+}
+
+/* Jumbotron section */
+.jumbotron {
+    background-color: #1abc9c;
+}
+
+.jumbotron img {
+    width: 300px;
 }
