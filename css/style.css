@@ -16,20 +16,127 @@ ul {
     list-style-type: none;
 }
 
+h1 {
+    font-size: 3.7rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
 .main-wrapper{
-    color: #ffffff;
-    font-size: 1rem;
+    color: var(--ms_std-white);
+    font-size: 2rem;
     font-weight: 600;
 }
 
 .ms_container-small {
     width: 70%;
+    margin: 0 auto;
 }
 
 .ms_section {
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
+
+/* Star-slicer */
+/* Star-slicer light color */
+.ms_star-slicer-light i {
+    font-size: 3rem;
+
+    color:var(--ms_std-white)
+} 
+
+.ms_star-slicer-light::before {
+    content: "";
+    display: inline-block;
+
+    width: 15%;
+    height: 0.4rem;
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+
+    border-radius: 10px;
+
+    background-color: var(--ms_std-white);
+}
+
+.ms_star-slicer-light::after {
+    content: "";
+    display: inline-block;
+
+    width: 15%;
+    height: 0.4rem;
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+
+    border-radius: 10px;
+
+    background-color: var(--ms_std-white);
+}
+
+/* Star-slicer dark color */
+.ms_star-slicer-dark i {
+    font-size: 3rem;
+
+    color:var(--ms_primary-color)
+} 
+
+.ms_star-slicer-dark::before {
+    content: "";
+    display: inline-block;
+
+    width: 15%;
+    height: 0.4rem;
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+
+    border-radius: 10px;
+
+    background-color: var(--ms_primary-color);
+}
+
+.ms_star-slicer-dark::after {
+    content: "";
+    display: inline-block;
+
+    width: 15%;
+    height: 0.4rem;
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+
+    border-radius: 10px;
+
+    background-color: var(--ms_primary-color);
+}
+
+/* UTILITIES */
+.ms_color-primary {
+    color: var(--ms_primary-color);
+}
+
+.ms_color-secondary {
+    color: var(--ms_secondary-color);
+}
+
+.ms_color-std-white {
+    color: var(--ms_std-white)
+}
+
+.ms_bkg-primary {
+    background-color: var(--ms_primary-color);
+}
+
+.ms_bkg-secondary {
+    background-color: var(--ms_secondary-color);
+}
+
+.ms_bkg-std-white {
+    background-color: var(--ms_std-white)
+}
+
 /* VARIABLES */
 :root {
     /* Spaces and Dimensions; */
@@ -60,12 +167,16 @@ header {
 }
 
 .jumbotron img {
-    width: 300px;
+    width: 250px;
 }
 
 /* Portfolio section */
 .portfolio {
     color: var(--ms_primary-color);
+}
+
+.portfolio img {
+    border-radius: 10px;
 }
 
 /* About section */

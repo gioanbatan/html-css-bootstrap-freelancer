@@ -49,13 +49,15 @@
             <!-- Jumbotron -->
             <section class="ms_section jumbotron">
                 <div class="container-sm text-center">
-                    <img src="img/avatar.svg" alt="Avatar image">
+                    <img class="pb-4" src="img/avatar.svg" alt="Avatar image">
                     
                     <h1>START BOOTSTRAP</h1>
                     
-                    <hr>
-                    
-                    <h3>GRAPHIC ARTIST - WEB DESIGNER - ILLUSATRATOR</h3>    
+                    <div class="ms_star-slicer-light py-4">
+                        <i class="fa-solid fa-star align-middle"></i>
+                    </div>
+
+                    <span>GRAPHIC ARTIST - WEB DESIGNER - ILLUSATRATOR</span>    
                 </div>
             </section>
             <!-- /Jumbotron -->
@@ -65,9 +67,11 @@
                 <div class="container-sm">
                     <h2>PORTFOLIO</h2>
                     
-                    <hr>
+                    <div class="ms_star-slicer-dark py-4">
+                        <i class="fa-solid fa-star align-middle"></i>
+                    </div>
                     
-                    <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-5">
                         <div class="col rounded-4">
                             <a href=""><img src="img/cabin.png" alt="House Image"></a>
                         </div>
@@ -103,54 +107,62 @@
             
             <!-- About Section -->
             <section class="ms_section about text-center">
-                <div class=".container-sm">
-                    <h2>ABOUT</h2>
-                    
-                    <hr>
-                    
-                    <div class="row">
-                        <div class="col-8 offset-2 col-md-4">
-                            <p class="fs-2 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dignissimos qui repudiandae dicta? Iure aperiam delectus quidem qui harum odit maxime repellendus, a minus, tempora, voluptates quibusdam illum fuga ex!</p>
+                <div class="ms_container-small">
+                    <div class="container-sm">
+                        <h2>ABOUT</h2>
+                        
+                        <div class="ms_star-slicer-light py-4">
+                            <i class="fa-solid fa-star align-middle"></i>
                         </div>
                         
-                        <div class="col-8 offset-2 col-md-4 offset-md-0">
-                            <p class="fs-2 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque magnam, impedit ducimus amet commodi, soluta iusto, praesentium mollitia nisi explicabo dolorum? Dolore soluta commodi accusamus eum, quibusdam ab omnis expedita!</p>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <p class="pb-5 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dignissimos qui repudiandae dicta? Iure aperiam delectus quidem qui harum odit maxime repellendus, a minus, tempora, voluptates quibusdam illum fuga ex!</p>
+                            </div>
+                            
+                            <div class="col-12 col-md-6">
+                                <p class="pb-5 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque magnam, impedit ducimus amet commodi, soluta iusto, praesentium mollitia nisi explicabo dolorum? Dolore soluta commodi accusamus eum, quibusdam ab omnis expedita!</p>
+                            </div>
                         </div>
-                    </div>
 
-                    <a class="fs-2 p-3 border rounded" href="">
-                        <i class="fa-sharp fa-solid fa-download"></i>
-                        Download
-                    </a>
+                        <a class="fs-2 p-3 border rounded" href="">
+                            <i class="fa-sharp fa-solid fa-download"></i>
+                            Download
+                        </a>
+                    </div>
                 </div>
             </section>
             
             <!-- Contact Me section -->
             <section class="ms_section contact-me text-center">
-                <div class="container-sm">
-                    <h2>CONTACT ME</h2>
-                    
-                    <hr>
-                    
-                    <form action="">
-                        <div class="row">
-                            <div class="col-2 offset-2">
-                                <label for="name">Name</label>
-                                <input type="text" id="name" name="name">
-                            </div> 
-
-                            <label for="email">Email Address</label>
-                            <input type="email" id="email" name="email">
-                            
-                            <label for="phone">Phone Number</label>
-                            <input type="tel" name="phone" id="phone">
-                            
-                            <label for="message">Message</label>
-                            <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                            
-                            <button type="submit">Send</button>
+                <div class="ms_container-small">
+                    <div class="container-sm">
+                        <h2>CONTACT ME</h2>
+                        
+                        <div class="ms_star-slicer-dark py-4">
+                            <i class="fa-solid fa-star align-middle"></i>
                         </div>
-                    </form>
+                        
+                        <form action="">
+                            <div class="row">
+                                <div class="col-2 offset-2">
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" name="name">
+                                </div> 
+
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email">
+                                
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" name="phone" id="phone">
+                                
+                                <label for="message">Message</label>
+                                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                                
+                                <button type="submit">Send</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </section>
             <!-- /Contact Me section -->
@@ -160,33 +172,31 @@
         <!-- Footer -->
         <footer class="text-center">
             <!-- Footer top -->
-            <section class="ms_section ms_footer-top container-sm fs-2">
-                <div class="row">
-                    <div class="col-12 col-md-4">
-                        <span class="d-block">LOCATION</span>
-                        <span class="d-block">2215 John Daniel Drive Clark, MO 54243</span>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-12 col-md-4">
-                        <span class="d-block">AROUND THE WEB</span>
-                        icon icon icon iocon
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-12 col-md-4">
-                        <span class="d-block">ABOUT FREELANCER</span>
-                        <span class="d-block">Freelance is a free to use, open source Bootstrap theme created by <span class="">Start Bootstrap</span></span>
+            <section class="ms_section ms_footer-top">
+                <div class="container-sm">
+                    <div class="row">
+                        <div class="col-12 col-md-4">
+                            <span class="d-block">LOCATION</span>
+                            <span class="d-block">2215 John Daniel Drive Clark, MO 54243</span>
+                        </div>
+                    
+                        <div class="col-12 col-md-4">
+                            <span class="d-block">AROUND THE WEB</span>
+                            icon icon icon iocon
+                        </div>
+                
+                        <div class="col-12 col-md-4">
+                            <span class="d-block">ABOUT FREELANCER</span>
+                            <span class="d-block">Freelance is a free to use, open source Bootstrap theme created by <span class="ms_color-secondary">Start Bootstrap</span></span>
+                        </div>
                     </div>
                 </div>
             </section>
             <!-- /Footer top -->
 
             <!-- Footer bottom -->
-            <section class="ms_sectrion ms_footer-bottom">
-                <span> Copyright &copy; 2019</span>
+            <section class="ms_section ms_footer-bottom fs-4 py-5">
+                <span class="d-block"> Copyright &copy; Your Website 2019</span>
             </section>
             <!-- /Footer bottom -->
         </footer>
