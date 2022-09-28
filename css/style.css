@@ -19,12 +19,27 @@ ul {
 .main-wrapper{
     color: #ffffff;
     font-size: 1rem;
+    font-weight: 600;
 }
 
+.ms_container-small {
+    width: 70%;
+}
+
+.ms_section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
 /* VARIABLES */
 :root {
     /* Spaces and Dimensions; */
     --header-height: 8rem;
+
+    /* Colors */
+    --ms_primary-color: #2c3e50;
+    --ms_secondary-color: #1abc9c;
+    --ms_std-white: #ffffff;
+    --ms_bkg-color: #3a546d;
 }
 
 /* HEADER */
@@ -32,8 +47,8 @@ header {
     height: var(--header-height);
     line-height: var(--header-height);
 
-    background-color: #2c3e50;
-    color: #ffffff;
+    background-color: var(--ms_primary-color);
+    color: var(--ms_std-white);
     
     /* DEBUG */
     border: 1px solid black;
@@ -41,7 +56,7 @@ header {
 
 /* Jumbotron section */
 .jumbotron {
-    background-color: #1abc9c;
+    background-color: var(--ms_secondary-color);
 }
 
 .jumbotron img {
@@ -50,10 +65,31 @@ header {
 
 /* Portfolio section */
 .portfolio {
-    color: #000000;
+    color: var(--ms_primary-color);
 }
 
 /* About section */
 .about {
-    background-color: #1abc9c;
+    background-color: var(--ms_secondary-color);
+}
+
+/* Contact Me section */
+.contact-me {
+    color: var(--ms_primary-color);
+}
+
+.contact-me form label,
+.contact-me form input {
+    display: inline-block;
+} 
+
+/* FOOTER */
+/* Footer top */
+.ms_footer-top {
+    background-color: var(--ms_bkg-color);
+}
+
+/* Footer bottom */
+.ms_footer-bottom {
+    background-color: var(--ms_primary-color);
 }
